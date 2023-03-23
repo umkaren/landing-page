@@ -1,0 +1,188 @@
+/*containers for the first blue section */
+.header-main-container {
+    background-color: #1F2937;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topheader {
+    float: left;
+}
+
+.awesome {
+    clear: left;
+    margin-right: 0;
+    display: inline-block;
+    width: 700px;
+}
+
+#placeholder-img {
+    display: inline-block;
+    float: right;
+    margin-right: 24em;
+    width: 600px;
+    height: 300px;
+    background-color: rgb(116, 116, 116);
+    text-align: center;
+    line-height: 300px;
+    color:#E5E7EB;
+}
+/*stylings for header*/
+#logo {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-right: 30em;
+    margin-left: 5em;
+    margin-bottom: 2em;
+}
+
+.header-links {
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align: right;
+    padding-left: 20px;
+    margin-right: 1em;
+}
+
+.linksy {
+    list-style-type: none;
+    display: flex;
+}
+/*textbox next to image*/
+.awesome-heading {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin-top: 1em;
+    margin-left: 3.25em;
+    margin-bottom: 10px;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.awesome-subtitle {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-left: 9em;
+    margin-top: 0;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+#sign-up {
+    background: #3882f6;
+    color:#f9faf8;
+    border-radius: 15%;
+    margin-left: 50%;
+    border-color:#3882f6;
+    margin-bottom: 7em;
+}
+
+/*random section*/
+
+.some-random-info {
+    text-align: center;
+}
+
+.boxes, .box-text {
+    display: flex;
+    justify-content: center;
+    margin-left: 2em;
+}
+
+.boxes {
+    padding-bottom: 0;
+}
+
+.empty-boxes {
+    width: 50px;
+    height: 50px;
+    border: 3px solid #3882f6;
+    border-radius: 25px;
+    padding: 50px;
+    margin: 20px;
+}
+
+.subtext {
+    width: 100px;
+    height: 100px;
+    padding: 0 50px;
+    margin: 0px;
+    color: #6d747d;
+}
+/*quotes section*/
+.quotes {
+    background-color: #E5E7EB;
+    font: italic lighter 36px Arial, serif;
+    padding-top: 4%;
+    padding-right: 20%;
+    padding-bottom: 4%;
+    padding-left: 20%;
+    justify-content: space-around;
+    margin-left:0;
+    margin-right: 0;
+}
+figcaption {
+    text-align: end;
+    padding-right: 10%;
+    font-weight: bold;
+}
+.thor {
+    text-align: right;
+    font: 18px;
+}
+
+.call-text {
+    background-color: #3882f6;
+    color:#f9faf8;
+    margin-left: 20em;
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: inline-block;
+    border-color: #3882f6;
+    margin-bottom: 1em;
+    margin-right: 0;
+    width: 700px;
+}
+
+#call-button {
+    background-color: #3882f6;
+    display: inline-block;
+    align-content: center;
+    padding-right: 4em;
+    padding-left: 4em;
+    padding-top: 4.1em;
+    padding-bottom: 1.8em;
+    border-color: #3882f6;
+    width: 300px;
+    margin-left: 0;
+}
+
+#call-sign {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-color: #f9faf8;
+    border-radius: 15%;
+
+}
+
+.call-heading {
+    font-weight: bold;
+}
+
+.ad {
+    margin: 3em;
+}
+footer {
+    text-align: center;
+    color: #e5e7eb;
+    background-color:#1F2937;
+    padding: .5em;
+}
+
+a, a:active, a:visited {
+    color: white;
+    text-decoration: none;
+    }
